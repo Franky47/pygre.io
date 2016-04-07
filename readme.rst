@@ -1,10 +1,28 @@
 PyGre.io
 ========
 
-Des cours de Python gratuits, libres et ouverts à tous sur Grenoble.
+I'm proposing Python courses for free (as in beer), free (as in speech) and open to all,
+in Grenoble, France. This repository holds the code of the website allowing people
+to subscribe to the courses.
 
-Ici se trouve le code du site permettant l'enregistrement des personnes intéressées
-par les cours.
+Tell me more !
+--------------
+
+The website is based on Tornado, and uses MongoDB for the users & calendar database.
+The whole thing runs on a Raspberry Pi 3 at home.
+
+The only personal data required to register for a course is an email address,
+which will be used to send course updates to the students. First and last names
+are optional, and any data sent through the website will be used strictly for
+this purpose only (I don't do this for money and don't intend to sell your private
+information to anyone).
+
+Why is everything in English ?
+------------------------------
+
+Like most programming languages, Python's syntax is based on English.
+The website is internationalised, and if you see a bad translation or want to contribute
+to adding other languages, I'm gladly accepting pull requests.
 
 License
 -------
