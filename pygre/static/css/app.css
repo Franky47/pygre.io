@@ -1,0 +1,16 @@
+html, body {
+    font-family: "Open Sans";
+    font-weight: 100;
+}
+
+.title {
+    font-weight: 100;
+    font-size: 32pt;
+}
+
+.subtitle {
+    font-weight: 100;
+    font-size: 24pt;
+    color: #888;
+    margin-top: 0px;
+}
