@@ -3,13 +3,12 @@ PyGre.io
 
 I'm proposing Python courses for free (as in beer), free (as in speech) and open to all,
 in Grenoble, France. This repository holds the code of the website allowing people
-to subscribe to the courses.
+to subscribe to the courses, and will be used as a use case during the course.
 
 Tell me more !
 --------------
 
 The website is based on Tornado, and uses MongoDB for the users & calendar database.
-The whole thing runs on a Raspberry Pi 3 at home.
 
 The only personal data required to register for a course is an email address,
 which will be used to send course updates to the students. First and last names
@@ -17,11 +16,20 @@ are optional, and any data sent through the website will be used strictly for
 this purpose only (I don't do this for money and don't intend to sell your private
 information to anyone).
 
+The website specifications are as following:
+- It displays a home page explaining briefly what PyGre is about.
+- It shows the list of courses available to register for in the future, with details on date/time, location, the program of the course, and how many people have registered so far.
+- A form to register to a course, that only requires an email address (names & other details are optional).
+- In the future, a comment system where people who registered and attended a course can leave anonymous remarks and feedback.
+
+A login system would be interesting, to quickly register to courses, to see
+the agenda of courses one has registered to, to leave comments etc..
+
 Why is everything in English ?
 ------------------------------
 
 Like most programming languages, Python's syntax is based on English.
-The website is internationalised, and if you see a bad translation or want to contribute
+The website will eventually be internationalised. If you see a bad translation or want to contribute
 to adding other languages, I'm gladly accepting pull requests.
 
 License

@@ -1,0 +1,15 @@
+{% extends "base-page.html" %}
+
+<!-- Page Title -->
+{% block title %}PyGre Admin{% end %}
+
+<!-- Page Content -->
+{% block body %}
+
+<h1>Hello, admin user {{ user }}</h1>
+
+<form action="/logout" method="get">
+    <input type="submit" value="Logout">
+</form>
+
+{% end %} <!-- End of Page
